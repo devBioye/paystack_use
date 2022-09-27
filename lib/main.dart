@@ -25,8 +25,8 @@ class PayPage extends StatefulWidget {
 }
 
 class _PayPageState extends State<PayPage> {
-  var secretKey = 'sk_test_8316281b7886e693404c398b6976431f3a91e5cf';
-  var publicKey = 'pk_test_d2c23c028b4f096e2cd26cc6810d80f596c5bf47';
+  var secretKey = 'your paystack secret key';
+  var publicKey = 'your paystack public key';
   final plugin = PaystackPlugin();
   @override
   void initState() {
